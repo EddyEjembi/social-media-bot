@@ -1,0 +1,17 @@
+2022-10-15 12:35:14,489 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-10-15 12:35:14,499 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\HP\Envs\bot\lib\site-packages\instabot\bot\bot.py
+2022-10-15 12:35:14,499 - instabot version: 0.117.0 (bot_get) - ERROR - Unexpected link
+2022-10-15 12:36:36,257 - instabot version: 0.117.0 (bot_get) - ERROR - Unexpected link
+2022-10-15 12:36:36,657 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-10-15 12:36:42,294 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-10-15 12:36:43,021 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-10-15 12:36:43,533 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-10-15 12:36:44,141 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-10-15 12:36:44,873 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-10-15 12:36:44,873 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","status":"fail","error_type":"ip_block"}'
+2022-10-15 12:36:44,873 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-10-15 12:36:44,881 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: 
+2022-10-15 12:36:44,889 - instabot version: 0.117.0 (api) - INFO - Error type: ip_block
+2022-10-15 12:36:44,889 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2022-10-15 12:36:44,889 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
+2022-10-15 12:36:44,897 - instabot version: 0.117.0 (api) - CRITICAL - Not logged in!
