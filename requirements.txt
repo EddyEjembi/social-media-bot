@@ -1,6 +1,5 @@
 asgiref==3.5.2
 attrs==22.1.0
-backports.zoneinfo==0.2.1;python_version<"3.9"
 certifi==2022.9.24
 chardet==5.0.0
 charset-normalizer==2.1.1
@@ -22,6 +21,7 @@ packaging==21.3
 Pillow==9.2.0
 pluggy==1.0.0
 proglog==0.1.10
+psycopg2==2.9.4
 py==1.11.0
 pyparsing==3.0.9
 PySocks==1.7.1
