@@ -75,13 +75,17 @@ WSGI_APPLICATION = 'social.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6k6qemiuhmv5d',
+        'USER': 'qyjusgnewuaiwd',
+        'PASSWORD': 'e60524956fceb8281908df0f8aea511260303cf13dd5a8cb66eea009ced4c536',
+        'HOST': 'ec2-54-82-205-3.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
