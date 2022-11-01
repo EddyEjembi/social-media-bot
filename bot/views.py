@@ -60,11 +60,11 @@ def get_profiles(request):
             #d.append([profiles[x][0]])
             #d.append([profiles[x][1]])
             try:
-                instagram.login(username=profiles[x][0], password=profiles[x][0])
+                instagram.login(username=profiles[x][0], password=profiles[x][1])
             except:
                 print("An error occured trying to log in " + profiles[x][0])
             print(profiles[x][0])
-            time.sleep(600)
+            time.sleep(6)
             if instagram_user:
                 instagram.follow(instagram_user) #follow user
                 print("USER: " + instagram_user)
