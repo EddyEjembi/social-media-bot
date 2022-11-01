@@ -5,6 +5,7 @@ from instabot import Bot
 from .models import InstagramAccounts
 from django.http import HttpResponse
 from . import forms
+import time
 
 # Create your views here.
 from os import remove
@@ -63,16 +64,20 @@ def get_profiles(request):
             except:
                 print("An error occured trying to log in " + profiles[x][0])
             print(profiles[x][0])
+            time.sleep(600)
             if instagram_user:
                 instagram.follow(instagram_user) #follow user
                 print("USER: " + instagram_user)
+            time.sleep(600)
             if instagram_post_link:
                 instagram.like(instagram_post) #like post
                 print("POST LINK: " + instagram_post_link)
+            time.sleep(600)
             if instagram_comment:
                 instagram.comment(instagram_post, instagram_comment)
                 print("COMMENT: " + instagram_comment)
             #print(d)
+            time.sleep(1200)
             x += 1
 
     return render(request, 'index.html', {'form':form})
